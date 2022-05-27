@@ -1,0 +1,25 @@
+#h31 {
+    font-size: 30px;
+}
+
+.btn-success:hover {
+    background-color: coral;
+}
+
+canvas {
+    border-radius: 15px;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 20px;
+}
+
+@keyframes anime {
+    from {
+        box-shadow: 1px 1px 40px rgb(4, 181, 251);
+    }
+
+    to {
+        box-shadow: 1px 1px 40px rgb(255, 0, 85);
+    }
+}
